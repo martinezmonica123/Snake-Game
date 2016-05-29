@@ -2,8 +2,8 @@
 //
 var bey = new Image();
 var grammy = new Image();
-bey.src ='Public/img/beyhead.jpg'
-grammy.src = 'Public/img/grammy.png';
+bey.src ='img/beyhead.jpg'
+grammy.src = 'img/grammy.png';
 
 document.getElementById('score').appendChild(document.createTextNode('Score: 0 - Level 0'));
 
