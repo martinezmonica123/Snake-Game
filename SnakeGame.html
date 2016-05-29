@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Celebrity Snake Game - Beyoncé Edition">
+        <meta name="author" content="Monica Martinez">
+		<title> Snake Game </title>
+		    
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!--Custom CSS-->
+        <link href="public/stylesheets/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <!-- navigation -->
+    <nav class="navbar navbar-inverse navbar-custom ">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Celebrity Snake Game</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- game -->
+    <div class="container" id="game">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-2">
+                <div id='score'></div>
+                <div class="gameButtons hidden" id='restart'>
+                    <button type="button" class="btn-info btn-lg" onclick='restart()'>Restart</button>
+                </div>           
+                <div id="canvas"></div>
+             </div>
+        </div>
+    </div>
+    <br>
+	</body>
+    <script src="Snake.js" type="text/javascript"></script>	
+</html>
